@@ -4,15 +4,16 @@ using namespace std;
 
 int main()
 {
-    int w;
-    cin>>w;
-    if(w>2&&w%2==0)
+    int n;
+    cin>>n;
+    int last =n% 10;
+    if(last %2 == 0)
     {
-        cout << "Yes" << endl;
+        cout<<"Even";
     }
     else
     {
-     cout << "No" << endl;
+        cout<<"Odd";
     }
     return 0;
 }
